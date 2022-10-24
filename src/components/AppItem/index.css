@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.appItem {
+  height: 125px;
+  width: 125px;
+  background-color: white;
+  border-radius: 7px;
+  list-style-type: none;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 7px;
+}
+
+.appname {
+  margin: 0px;
+  margin-top: 4px;
+}

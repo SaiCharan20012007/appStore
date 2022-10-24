@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.tab {
+  list-style-type: none;
+  font-family: Roboto;
+  color: #7b8794;
+  font-size: 20px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #7b8794;
+  color: #7b8794;
+  cursor: pointer;
+}
+.tab2 {
+  list-style-type: none;
+  font-family: Roboto;
+
+  font-size: 20px;
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #2563eb;
+  color: #2563eb;
+  cursor: pointer;
+}
+.name {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.name2 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+.tabBtn {
+}
+.tabBtn {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
