@@ -1,23 +1,50 @@
 /* Write your CSS here */
-.appItem {
-  height: 125px;
-  width: 125px;
-  background-color: white;
-  border-radius: 7px;
-  list-style-type: none;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.icon {
-  height: 70px;
-  width: 70px;
-  border-radius: 7px;
-}
+@media screen and (min-width: 767px) {
+  .appItem {
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    border-radius: 7px;
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 7px;
+  }
 
-.appname {
-  margin: 0px;
-  margin-top: 4px;
+  .appname {
+    margin: 0px;
+    margin-top: 4px;
+  }
+}
+/* Write your CSS here */
+@media screen and (max-width: 767px) {
+  .appItem {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 7px;
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+  }
+
+  .appname {
+    margin: 0px;
+    margin-top: 4px;
+  }
 }
